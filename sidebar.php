@@ -7,7 +7,7 @@
  * @since Twenty Ten 1.0
  */
 ?>
-<div class="small-12 large-4 columns">
+<div class="col-md-4">
 		<div id="primary" class="widget-area" role="complementary" >
 			<ul class="xoxo">
 

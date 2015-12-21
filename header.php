@@ -87,16 +87,25 @@
             </div><!-- #header -->
             
 <div class="header-banner">
-    <?php
-    // Seach form
-    $exclude = array('forum','topic','reply','');
-    if (
-            !in_array(
-                    get_post_type(), $exclude)) {
-        bbp_get_template_part(
-                'meta', 'forum-intro');
-    }
-    ?>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h3><?php echo esc_html__('Our Support Center', 'support-forum');?></h3>
+				<p><?php echo esc_html__('Please try looking for your problem before place your question, thanks !', 'support-forum');?></p>
+				<div class="clearfix"></div>
+			    <?php
+			    // Seach form
+			    $exclude = array('forum','topic','reply','');
+			    if (
+			            !in_array(
+			                    get_post_type(), $exclude)) {
+			        bbp_get_template_part(
+			                'meta', 'forum-intro');
+			    }
+			    ?>
+			</div>
+		</div>
+	</div>
 </div><!-- #header banner -->
         <div id="wrapper" class="hfeed">
-            <div id="main" class="row display">
+            <div class="container">

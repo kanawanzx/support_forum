@@ -1,0 +1,57 @@
+.header-banner{
+	background: url(../images/headers/slider.jpg) no-repeat center bottom;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	padding: 80px 0;
+	text-align: center;
+    h3{
+	    font-size: 36px;
+		font-weight: 400;
+		line-height: 14px;
+		color: #fff;
+		letter-spacing: 2px;
+		margin-bottom: 25px;
+    }
+    p{
+	    color: #fff;
+	    font-weight: 300;
+	    margin-bottom: 0;
+    }
+    #forums-search{
+	    background: none;
+	    width: 65%;
+	    margin: 0 auto;
+	    position: relative;
+	    input[type="text"]{
+		    border: none;
+		    width: 100%;
+			background-color: #f7f7f9;
+			padding: 25px 30px;
+			outline: none;
+			color: #797979;
+			@include border-radius(30px);
+			box-shadow: none;
+	    }
+	    input[type="submit"] {
+		    text-align: center;
+		    text-transform: uppercase;
+		    width: 127px;
+		    height: 41px;
+		    font-size: 14px;
+		    font-weight: 300;
+		    letter-spacing: 1px;
+		    color: #fff;
+		    border-radius: 100px;
+		    background: $black_color;
+		    position: absolute;
+		    right: 16px;
+		    top: 50%;
+		    @include transform(translateY(-50%));
+		    @include transition();
+		    &:hover{
+			    background: $primary_color;
+		    }
+		}
+	}
+}

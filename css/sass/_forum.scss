@@ -1,0 +1,101 @@
+#wrapper{
+	margin-top: 60px;
+}
+#content{
+    margin: 0;
+    .entry-content{
+	    padding-top: 0;
+	}
+}
+#primary{
+    width: 100%;
+}
+#bbpress-forums{ 
+	.bbp-header{
+	    text-transform: uppercase;
+	    font-size: 12px;
+	    color: #000;
+	    background: #eeeeee;
+	    border-bottom: 4px solid #6F6F6F;
+    }
+    .bbp-body{
+	    line-height: 20px;
+	    text-align: center;
+	    text-transform: uppercase;
+	}
+	.bbp-header .forum-titles,
+	.bbp-body ul,
+	.bbp-footer .tr,
+	.bbp-pagination div{
+	    padding: 0px 20px;
+	}
+}
+
+.user-id-1 div.topic-author-displayname, 
+.user-id-1 .bbp-topic-freshness-author{
+    color: rgb( 216, 95, 22 );
+}
+#bbpress-forums {
+	.bbp-body {
+		.bbp-topic-freshness-author{
+		    font-weight: bold;
+		    font-size: 10px;
+	    }
+	    .bbp-topic-last-poster{
+		    word-wrap: break-word;
+		}
+		.bbp-topic-reply-count {
+		    width: 8%;
+		    word-wrap: break-word;
+		    .as-topic-reply-count{
+			    margin: 0px auto;
+			    font-size: 10px;
+			    color: rgb( 33, 33, 33 );
+			    background-color: rgb( 229, 224, 195 );
+			    width: 40px;
+			    line-height: 20px;
+			    border-radius: 20px;
+			}
+		}
+		.bbp-topic-freshness{
+		    font-size: 10px;
+		    position: relative;
+		}
+    }
+}
+.bbp-pagination-links {
+	span.page-numbers.current,
+	.page-numbers:hover{
+	    border: 1px solid #ddd;
+	    background: #526559;
+	    color: #fff;
+	}
+	a.page-numbers{
+	    border: 1px solid #ddd;
+	    padding: 5px 8px;
+	}
+}
+#primary.widget-area .xoxo .widget-container{
+    background: #eeeeee;
+    padding: 20px 0px 20px 20px;
+}
+#primary.widget-area .xoxo .widget-container .widget-title{
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 2;
+  text-align: center;  
+  background: rgb( 82, 101, 89 );
+    display: inline-block;
+    border: none;
+    margin: 0; 
+    padding: 0 6px;
+    border-radius: 100px;
+    color: #fff; 
+}
+#primary .widget-container li{
+    font-size: 14px;
+    border-bottom: 1px solid #dddddd;
+    color: rgb( 121, 121, 121 );
+
+
+}

@@ -2,8 +2,9 @@
 /** Template Name: Forums */
 
 get_header(); ?>
-<div class="small-12 large-8 columns">
-		<div id="container">
+<div class="row">
+	<div class="col-md-8">
+
 			<div id="content" role="main">
 			<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
@@ -32,9 +33,10 @@ get_header(); ?>
 			<?php endwhile; // end of the loop. ?>
 
 			</div><!-- #content -->
-		</div><!-- #container -->
+
+	</div>
+	<?php get_sidebar(); ?>
 </div>
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
 
 
