@@ -87,7 +87,6 @@
             </div><!-- #header -->
             
 <div class="header-banner">
-
     <?php
     // Seach form
     $exclude = array('forum','topic','reply','');
@@ -98,7 +97,6 @@
                 'meta', 'forum-intro');
     }
     ?>
-
 </div><!-- #header banner -->
         <div id="wrapper" class="hfeed">
             <div id="main" class="row display">
