@@ -1,0 +1,39 @@
+$primary_color: #526559;
+$black_color: 	#212121;
+/*** Body + Link ***/
+body{
+	font-family: 'Lato',sans-serif;
+}
+* a{
+	font-family: 'Lato',sans-serif;
+}
+a,a:link,
+a:visited{
+    color: $primary_color; 
+    text-decoration: none;
+}
+a:active,
+a:hover {
+    color: $primary_color;
+    text-decoration: none;
+}
+
+/*** BG Color ***/
+.as-bg-color{
+	background-color: $primary_color !important;
+}
+/*** Text Color ***/
+.as-text-color{
+	color: $primary_color !important;
+}
+/*** Button ***/
+.as-btn-style{
+	font-size: 12px;
+	font-weight: 400;
+	color: #fff;
+	background: $black_color;
+	@include transition();
+	&:hover{
+		opacity: .8;
+	}
+}

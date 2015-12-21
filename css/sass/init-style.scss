@@ -1,93 +1,19 @@
+/* = Import Font
+-------------------------------------------------------------- */
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900,900italic);
-a,a:link,
-a:visited{
-    color: #526559; 
-}
-a:active,
-a:hover {
-    color: #526559;
-}
-#access ul li.current_page_item > a,
-#access ul li.current-menu-ancestor > a,
-#access ul li.current-menu-item > a,
-#access ul li.current-menu-parent > a {
-    color: #526559;
-}
-#access li:hover > a,
-#access ul ul :hover > a {
-    color: #526559;
-}
-.left{
-    font-family: 'Lato',serif;
-    font-size: 14px;
-}
-#topbar {
-    background: #eeeeee;
-}
-#topbar .inner {
-    width: 1170px;
-    position: relative;
-}
-#topbar .inner .right{
-    float: none;
-}
-#header{
-    margin: 0px auto;
-    width: 1170px;
-    position: relative;
-    display: block;
-}
-#colophon,
-#main,
-#wrapper {
-    width: 1170px;
-}
-.right {
-    margin-top: -6px;
-}
-.right a{
-    color: #fff;
-    text-align: center;
-    line-height: 27px;
-    border-radius: 12px;
-    background-color: rgb( 33, 33, 33 );
-    position: absolute;
-    width: 91px;
-    height: 27px;
-}
-.right a:first-child {
-    right:99px;
-}
-.right a:last-child {
-    right:0;
-}
-.right a:hover {
-    background-color: rgb( 82, 101, 89 );
-}
-#site-title{
-    text-transform: uppercase;
-    margin-bottom: 0;
-    font-family: 'Lato',sans-serif;
-}
-#site-description{
-    margin: 0;
-}
-.menu ul li a{
-    font-size: 14px;
-    color: #b0b0b1;
-}
-.header-banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 280px;
-    width: 100%;
-}
-.header-banner #forums-search{
-    background: none;
-    width: 53.5%;
+/* ---------------------------------------- */
+/* 1.  Base Style
+/* ---------------------------------------- */
+@import "mixin";
+@import "base";
 
-}
+/* ---------------------------------------- */
+/* 2.  Header Style
+/* ---------------------------------------- */
+@import "header";
+
+/* = Form Search Style
+-------------------------------------------------------------- */
 #forums-search input[type="text"] {
     background-color: rgb( 247, 247, 249 );
     width: 100%;

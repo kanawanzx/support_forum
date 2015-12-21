@@ -161,9 +161,9 @@ class BBP_Default extends BBP_Theme_Compat {
 		// Enqueue the bbPress styling
 		wp_enqueue_style( $handle, $location . $file, array(), $this->version, 'screen' );
                 // Foundation lib
-                wp_enqueue_style('foundation', $location. 'css/foundation.min.css');
+                wp_enqueue_style('foundation', $location. 'css/bootstrap.min.css');
                 // Foundation custome style
-                wp_enqueue_style('custom', $location. 'css/custom.css');
+                wp_enqueue_style('custom', $location. 'css/init-style.css');
                 // Reponsive custome style
                     wp_enqueue_style('reposive', $location. 'css/reponsive.css');
 	}
