@@ -1,13 +1,13 @@
-### Supportte WordPress Theme
+== Supportte WordPress Theme ==
 
 * Author: Syamil MJ
 * Website: http://aquagraphite.com
 
-### Description
+== Description ==
 
 Supportte is clean WordPress Theme that's intended for authors on Envato Marketplaces who needs a support forums to support their customers.
 
-### Features
+== Features ==
 
 * Easy integration with Aqua Verifier to verify purchase from Envato Marketplaces
 * Filter replies from non-members, but leave topic content to help with SEO
@@ -15,7 +15,7 @@ Supportte is clean WordPress Theme that's intended for authors on Envato Marketp
 * Custom & overall better search page than default BBPress search
 * Syntax highlighter (crayon)
 
-### Supported Plugins
+== Supported Plugins ==
 
 Supportte requires these plugins in order to function properly
 
@@ -26,16 +26,11 @@ Supportte requires these plugins in order to function properly
 * Crayon Syntax Highlighter
 * WP Mail SMTP
 
-### DEMO / Screenshot
+== Changelog ==
 
-[Aquagraphite Support Forum](http://support.aquagraphite.com/)
+= 1.1.0: June 12, 2013 = 
 
-![screenshot](http://i.imgur.com/8lEiADD.jpg)
+* Fixed - Support for BBPress 2.3.2
 
-### Installation instruction
+= 1.0.0: April 2013 Initial Release =
 
-* coming soon
-
-### Bugs, Issues, Feedbacks, Help?
-
-Please report any bugs, issues, feedbacks or get help on the [Issues](https://github.com/sy4mil/supportte/issues) page.

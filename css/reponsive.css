@@ -1,0 +1,25 @@
+@media screen and (max-width: 1170px)  {
+	#topbar .inner,
+	#colophon,
+	#main,
+	#header,
+	#wrapper {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 600px)  {
+/*#bbpress-forums{
+        width: 600px;
+    }*/
+    #bbpress-forums .bbp-topics{
+        overflow-x: scroll;
+    }
+    #forums-search{
+        width: 300px !important;
+    }
+   #forums-search input[type="submit"]{
+        margin-top: 5px;
+        right: 0;
+        position: relative;
+    }
+}
