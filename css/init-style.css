@@ -255,18 +255,12 @@ a:hover {
   text-align: center;
   text-transform: uppercase; }
 
-#bbpress-forums .bbp-header .forum-titles,
-#bbpress-forums .bbp-body ul,
-#bbpress-forums .bbp-footer .tr,
-#bbpress-forums .bbp-pagination div {
-  padding: 0px 20px; }
-
 .user-id-1 div.topic-author-displayname,
 .user-id-1 .bbp-topic-freshness-author {
   color: #d85f16; }
 
 #bbpress-forums .bbp-body .bbp-topic-freshness-author {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 10px; }
 
 #bbpress-forums .bbp-body .bbp-topic-last-poster {
@@ -288,38 +282,44 @@ a:hover {
   font-size: 10px;
   position: relative; }
 
-.bbp-pagination-links span.page-numbers.current,
-.bbp-pagination-links .page-numbers:hover {
-  border: 1px solid #ddd;
-  background: #526559;
-  color: #fff; }
-
-.bbp-pagination-links a.page-numbers {
-  border: 1px solid #ddd;
-  padding: 5px 8px; }
-
-#primary.widget-area .xoxo .widget-container {
-  background: #eeeeee;
-  padding: 20px 0px 20px 20px; }
-
-#primary.widget-area .xoxo .widget-container .widget-title {
+/*
+.bbp-pagination-links {
+	span.page-numbers.current,
+	.page-numbers:hover{
+	    border: 1px solid #ddd;
+	    background: #526559;
+	    color: #fff;
+	}
+	a.page-numbers{
+	    border: 1px solid #ddd;
+	    padding: 5px 8px;
+	}
+}
+#primary.widget-area .xoxo .widget-container{
+    background: #eeeeee;
+    padding: 20px 0px 20px 20px;
+}
+#primary.widget-area .xoxo .widget-container .widget-title{
   font-size: 12px;
   text-transform: uppercase;
   line-height: 2;
-  text-align: center;
-  background: #526559;
-  display: inline-block;
-  border: none;
-  margin: 0;
-  padding: 0 6px;
-  border-radius: 100px;
-  color: #fff; }
+  text-align: center;  
+  background: rgb( 82, 101, 89 );
+    display: inline-block;
+    border: none;
+    margin: 0; 
+    padding: 0 6px;
+    border-radius: 100px;
+    color: #fff; 
+}
+#primary .widget-container li{
+    font-size: 14px;
+    border-bottom: 1px solid #dddddd;
+    color: rgb( 121, 121, 121 );
 
-#primary .widget-container li {
-  font-size: 14px;
-  border-bottom: 1px solid #dddddd;
-  color: #797979; }
 
+}
+*/
 /* Topic*/
 /*
 #bbpress-forums div.bbp-topic-author img.avatar, #bbpress-forums div.bbp-reply-author img.avatar{
