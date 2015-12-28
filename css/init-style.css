@@ -173,10 +173,10 @@ a:hover {
   .header-banner h3 {
     font-size: 36px;
     font-weight: 400;
-    line-height: 14px;
+    line-height: 50px;
     color: #fff;
     letter-spacing: 2px;
-    margin-bottom: 25px; }
+    margin-bottom: 0; }
   .header-banner p {
     color: #fff;
     font-weight: 300;
@@ -280,7 +280,123 @@ a:hover {
 
 #bbpress-forums .bbp-body .bbp-topic-freshness {
   font-size: 10px;
-  position: relative; }
+  position: relative; 
+}
+.Intro_Text {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1440px;
+  height: 1601px;
+  z-index: 63;
+}
+.entry-content p {
+  font-size: 14px;
+  font-family: "Myriad Pro",serif;
+  color: rgb( 33, 33, 33 );
+  line-height: 1.714;
+}
+.entry-content #bbpress-forums{
+  background-color: rgb( 238, 238, 238 );
+}
+.entry-content #bbpress-forums .bbp-topics, .entry-content #bbpress-forums .bbp-pagination{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#bbpress-forums div.even, #bbpress-forums ul.even,#bbpress-forums div.odd, #bbpress-forums ul.odd{
+    background-color: transparent;
+}
+#bbpress-forums li.bbp-body ul.forum, #bbpress-forums li.bbp-body ul.topic{
+    border-bottom: 1px solid #dedede;
+}
+#bbpress-forums li.bbp-body ul.topic:last-child{
+    border: none;
+}
+/*
+widget style
+*/
+.widget-title{
+    font-size: 12px;
+  font-family: "Lato";
+  color: rgb( 255, 255, 255 );
+  text-transform: uppercase;
+  line-height: 2.162;
+  text-align: center;
+  background: rgb( 82, 101, 89 );
+    display: inline-block;
+    border: none;
+    margin: 0; 
+    padding: 0 25px;
+    border-radius: 100px;
+}
+.widget-container{
+    background-color: rgb( 238, 238, 238 );
+    padding: 20px;
+        margin: 0 0 37px 0;
+}
+.widget-container > ul >li{
+     font-size: 14px;
+  font-family: "Lato";
+  color: rgb( 121, 121, 121 );
+  text-transform: uppercase;
+  line-height: 1.714;
+  
+}
+#primary .widget-container li{
+      border-bottom: 1px solid #dedede; 
+      padding: 10px 0px; 
+}
+.widget-area ul ul{
+    margin-left:0;
+}
+.widget-container .topic-count{
+        display: inline-block;
+    right: 0;
+    background-color: rgb( 229, 224, 195 );
+    font-size: 8.684px;
+    font-family: "Lato";
+    color: rgb( 33, 33, 33 );
+    text-transform: uppercase;
+    line-height: 2.764;
+    text-align: center;
+    padding: 0px 15px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    font-weight: 600;
+}
+.forum_text{
+    display: block;
+}
+.forum_hours{
+    position: relative;
+}
+.forum_hours,.forum_text{
+    font-size: 14px;
+  font-family: "Lato";
+  color: rgb( 121, 121, 121 );
+  text-transform: uppercase;
+  line-height: 1.714;
+  border-bottom: 1px solid #dedede;
+      padding: 10px 0px;
+}
+.as-format-time{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    background-color: rgb( 229, 224, 195 );
+    font-size: 8.684px;
+    font-family: "Lato";
+    color: rgb( 33, 33, 33 );
+    text-transform: uppercase;
+    line-height: 2.764;
+    text-align: center;
+    padding: 0px 15px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    font-weight: 600;
+}
 
 /*
 .bbp-pagination-links {
