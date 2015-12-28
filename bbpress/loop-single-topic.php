@@ -21,7 +21,7 @@
 
 			<?php do_action( 'bbp_theme_before_topic_started_by' ); ?>
 
-			<span class="bbp-topic-started-by"><?php printf( __( ' by %1$s', 'bbpress' ), bbp_get_topic_author( array( 'type' => 'name' ) ) ); ?></span>
+<!--			<span class="bbp-topic-started-by"><?php //printf( __( ' by %1$s', 'bbpress' ), bbp_get_topic_author( array( 'type' => 'name' ) ) ); ?></span>-->
 
 			<?php if ( !bbp_is_single_forum() || ( bbp_get_topic_forum_id() != bbp_get_forum_id() ) ) : ?>
 

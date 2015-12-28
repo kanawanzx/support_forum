@@ -163,7 +163,7 @@ class BBP_Default extends BBP_Theme_Compat {
                 // Foundation lib
                 wp_enqueue_style('foundation', $location. 'css/bootstrap.min.css');
                 // Foundation custome style
-                wp_enqueue_style('custom', $location. 'css/init-style.css');
+                wp_enqueue_style('custom', $location. 'css/css/init-style.css');
                 // Reponsive custome style
                     wp_enqueue_style('reposive', $location. 'css/reponsive.css');
 	}
