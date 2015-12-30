@@ -35,6 +35,14 @@
             margin-left: 0;
         }
     }
+    a{
+        &:hover{
+        text-decoration: none;
+    }
+     &:active{
+        text-decoration: none;
+    }
+    }
 }
 #primary{
     width: 100%;
