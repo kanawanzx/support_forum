@@ -233,11 +233,50 @@ a:hover {
 /* ---------------------------------------- */
 /* 4.  Forum Style
 /* ---------------------------------------- */
+button[type="submit"] {
+  -webkit-transition: 1s;
+  -khtml-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  border-radius: 0;
+  border: none;
+  background: #526559;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-shadow: none;
+  letter-spacing: 1.5px;
+  padding: 7px 20px; }
+  button[type="submit"]:hover {
+    background: #526559;
+    border: none;
+    opacity: 0.8; }
+
+a:hover, a.comment-edit-link:hover {
+  -webkit-transition: 1s;
+  -khtml-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  color: #526559;
+  opacity: 0.8; }
+
+.topic .bbp-reply-content a:hover, .topic .bbp-topic-content a:hover {
+  color: #526559; }
+
+.reply a:hover {
+  color: #526559; }
+
 #wrapper {
   margin-top: 60px; }
 
 #content {
   margin: 0; }
+  #content .entry-title {
+    margin-bottom: 15px; }
   #content .entry-content {
     padding-top: 0; }
     #content .entry-content p {
@@ -253,6 +292,17 @@ a:hover {
   .topic .entry-content #bbpress-forums li.bbp-footer {
     border-bottom: 1px solid #dadada;
     padding: 30px 20px; }
+
+.bbp-template-notice p {
+  font-family: "Lato";
+  color: #f2f2f2 !important;
+  line-height: 1.167;
+  text-align: left; }
+
+.bbp-template-notice {
+  background-color: #526559 !important;
+  border: none !important;
+  border-radius: 0 !important; }
 
 .widget-area ul ul {
   margin-left: 0; }
@@ -288,21 +338,23 @@ a:hover {
     text-align: center;
     text-transform: uppercase; }
     #bbpress-forums .bbp-body .topic .bbp-topic-title .overflow .bbp-topic-permalink {
-      display: block; }
+      display: block;
+      margin-bottom: 5px; }
     #bbpress-forums .bbp-body .topic .bbp-topic-title .overflow .bbp-topic-started-by {
       display: inline-block; }
     #bbpress-forums .bbp-body .topic .bbp-topic-title .overflow .bbp-topic-started-in {
       color: #787878;
       display: inline-block;
       background-color: #aaaaaa;
-      font-size: 12px;
+      font-size: 11px;
       font-family: "Lato";
       text-transform: uppercase;
       line-height: 1.667;
       text-align: left;
       padding: 0px 10px; }
       #bbpress-forums .bbp-body .topic .bbp-topic-title .overflow .bbp-topic-started-in a {
-        color: white; }
+        color: white;
+        margin-left: 3px; }
   #bbpress-forums .bbp-topics, #bbpress-forums .bbp-pagination {
     padding-left: 20px;
     padding-right: 20px; }
@@ -340,17 +392,17 @@ a:hover {
 #bbpress-forums .bbp-body .bbp-topic-freshness {
   font-size: 10px;
   position: relative; }
-#bbpress-forums .bbp-replies .bbp-header, #bbpress-forums .bbp-replies .bbp-body, #bbpress-forums .bbp-replies .bbp-footer {
+#bbpress-forums .bbp-header, #bbpress-forums .bbp-body, #bbpress-forums .bbp-footer {
   padding: 0px 20px;
   background: #eee; }
-#bbpress-forums .bbp-replies .bbp-header {
+#bbpress-forums .bbp-header {
   margin-bottom: 20px;
   padding: 20px; }
-  #bbpress-forums .bbp-replies .bbp-header .posted-in {
+  #bbpress-forums .bbp-header .posted-in {
     font-size: 14px;
     font-family: "Myriad Pro";
     color: #797979; }
-    #bbpress-forums .bbp-replies .bbp-header .posted-in a {
+    #bbpress-forums .bbp-header .posted-in a {
       font-size: 12px;
       font-family: "Lato";
       color: white;
@@ -358,7 +410,7 @@ a:hover {
       text-align: left;
       background-color: #aaaaaa;
       padding: 5px 10px; }
-  #bbpress-forums .bbp-replies .bbp-header .aq-topic-status .in-progress {
+  #bbpress-forums .bbp-header .aq-topic-status .in-progress {
     color: #fff;
     background-color: #d85f16;
     border-radius: 0;
@@ -426,11 +478,11 @@ widget style
       position: absolute;
       right: 0;
       background-color: #e5e0c3;
-      font-size: 8.684px;
+      font-size: 10px;
       font-family: "Lato";
       color: #212121;
       text-transform: uppercase;
-      line-height: 2.764;
+      line-height: 20px;
       text-align: center;
       padding: 0px 15px;
       border-radius: 100px;
