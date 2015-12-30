@@ -266,6 +266,8 @@ a:hover, a.comment-edit-link:hover {
 
 .topic .bbp-reply-content a:hover, .topic .bbp-topic-content a:hover {
   color: #526559; }
+.topic .bbp-reply-content P {
+  text-transform: none; }
 
 .reply a:hover {
   color: #526559; }
