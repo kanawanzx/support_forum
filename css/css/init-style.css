@@ -322,7 +322,7 @@ a:hover, a.comment-edit-link:hover {
     list-style: none;
     margin-left: 0; }
 
-.type-page .bbp-body {
+.type-page .bbp-body, .type-forum .bbp-body {
   padding: 0 !important; }
 
 #bbpress-forums {
