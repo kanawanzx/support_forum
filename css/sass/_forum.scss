@@ -90,6 +90,7 @@ a, a.comment-edit-link{
     background-color: rgb( 82, 101, 89 ) !important;
     border: none !important;
     border-radius: 0 !important;
+    margin: 0 !important;
 }
 .widget-area{
     ul{
@@ -118,6 +119,11 @@ a, a.comment-edit-link{
         }
     }
 }
+.type-page{
+            .bbp-body{
+                padding: 0 !important;
+            }
+        }
 #bbpress-forums{ 
     background-color: rgb( 238, 238, 238 );
     .bbp-header{
@@ -129,7 +135,7 @@ a, a.comment-edit-link{
         .bbp-single-topic-meta{
             margin-bottom: 0;
             background: transparent;
-            padding: 0;
+            padding: 0px 20px;
         }
     }
     li.bbp-header{

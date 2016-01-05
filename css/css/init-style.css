@@ -304,7 +304,8 @@ a:hover, a.comment-edit-link:hover {
 .bbp-template-notice {
   background-color: #526559 !important;
   border: none !important;
-  border-radius: 0 !important; }
+  border-radius: 0 !important;
+  margin: 0 !important; }
 
 .widget-area ul ul {
   margin-left: 0; }
@@ -321,6 +322,9 @@ a:hover, a.comment-edit-link:hover {
     list-style: none;
     margin-left: 0; }
 
+.type-page .bbp-body {
+  padding: 0 !important; }
+
 #bbpress-forums {
   background-color: #eeeeee; }
   #bbpress-forums .bbp-header {
@@ -332,7 +336,7 @@ a:hover, a.comment-edit-link:hover {
     #bbpress-forums .bbp-header .bbp-single-topic-meta {
       margin-bottom: 0;
       background: transparent;
-      padding: 0; }
+      padding: 0px 20px; }
   #bbpress-forums li.bbp-header {
     padding: 20px 0px; }
   #bbpress-forums .bbp-body {
@@ -565,6 +569,57 @@ pagination
 
 }
 */
+/* ---------------------------------------- */
+/* 4.  Contact
+/* ---------------------------------------- */
+.contact-wrapper {
+  padding: 50px;
+  background: #eee; }
+  .contact-wrapper .contact .contact-lable {
+    font-size: 14px;
+    font-family: "Lato";
+    color: #212121;
+    text-transform: uppercase;
+    line-height: 1.714;
+    text-align: left;
+    margin-bottom: 7px; }
+
+.contact .contact-name, .contact .contact-email, .contact .contact-theme-name, .contact .contact-selection {
+  width: 415px !important;
+  height: 50px !important;
+  border: 1px solid #dddddd !important;
+  border-radius: 2px !important;
+  background-color: #f7f7f9 !important;
+  padding: 7px 12px;
+  margin: 0; }
+.contact .contact-message {
+  border: 1px solid #dddddd;
+  border-radius: 2px;
+  background-color: #f7f7f9;
+  width: 640px;
+  height: 184px; }
+.contact input[type=submit] {
+  background: #212121;
+  width: 96px;
+  height: 36px;
+  border-radius: 100px;
+  color: #fff !important;
+  text-transform: uppercase;
+  line-height: 14px;
+  text-shadow: none !important 2px 5px rgba(0, 0, 0, 0.4);
+  font-family: "Lato";
+  text-align: center;
+  font-weight: 400 !important;
+  margin-bottom: 0;
+  -webkit-transition: all 0.3s;
+  -khtml-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+  .contact input[type=submit]:hover {
+    background: #526559; }
+
 /* Topic*/
 /*
 #bbpress-forums div.bbp-topic-author img.avatar, #bbpress-forums div.bbp-reply-author img.avatar{

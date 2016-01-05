@@ -1,0 +1,52 @@
+.contact-wrapper{
+    padding: 50px;
+    background: #eee;
+    .contact{
+        .contact-lable{
+            font-size: 14px;
+            font-family: "Lato";
+            color: rgb( 33, 33, 33 );
+            text-transform: uppercase;
+            line-height: 1.714;
+            text-align: left;
+            margin-bottom: 7px;
+        }
+    }
+}
+
+.contact{
+    .contact-name,.contact-email, .contact-theme-name, .contact-selection{
+        width: 415px !important;
+        height: 50px !important;
+        border: 1px  solid rgb( 221, 221, 221 ) !important;
+        border-radius: 2px !important;
+        background-color: rgb( 247, 247, 249 ) !important;
+        padding: 7px 12px;
+        margin: 0;
+    }
+    .contact-message{
+        border: 1px  solid rgb( 221, 221, 221 );
+        border-radius: 2px;
+        background-color: rgb( 247, 247, 249 );
+        width: 640px;
+        height: 184px;
+    }
+    input[type=submit]{
+        background: rgb( 33, 33, 33 );
+        width: 96px;
+        height: 36px;
+        border-radius: 100px;
+        color: #fff !important;
+        text-transform: uppercase;
+        line-height: 14px;
+        @include text-shadow(none !important);
+        font-family: "Lato";
+        text-align: center;
+        font-weight: 400 !important;
+        margin-bottom: 0; 
+        @include transition(all 0.3s);
+        &:hover{
+            background: #526559;
+        }
+    }
+}
