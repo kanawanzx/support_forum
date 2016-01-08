@@ -512,4 +512,11 @@ function twentyten_posted_in() {
 }
 endif;
 
+if(!function_exists('forum_enqueue_script')){
+    function forum_enqueue_script(){
+         wp_enqueue_script('forum-time-zone', get_template_directory_uri() . '/js/time-zone.js', array(
+        'jquery'));
+    }
+}
+add_action('wp_enqueue_scripts', 'forum_enqueue_script');
 require_once('widgets/forum-categories.php');

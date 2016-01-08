@@ -52,7 +52,6 @@
     </head>
 
     <body <?php body_class(); ?>>
-
         <?php get_template_part('topbar'); ?>
             <div id="header" class="clearfix">
 	            <div class="container">

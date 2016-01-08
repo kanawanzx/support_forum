@@ -157,13 +157,15 @@ class BBP_Default extends BBP_Theme_Compat {
 			$location = trailingslashit( $this->url );
 			$handle   = 'bbp-default-bbpress';
 		}
-
+                // Fonts
+                wp_enqueue_style('font-awesome', $location. 'css/css/font-awesome.css');
 		// Enqueue the bbPress styling
 		wp_enqueue_style( $handle, $location . $file, array(), $this->version, 'screen' );
                 // Foundation lib
                 wp_enqueue_style('foundation', $location. 'css/bootstrap.min.css');
                 // Foundation custome style
                 wp_enqueue_style('custom', $location. 'css/css/init-style.css');
+                
                 // Reponsive custome style
                     wp_enqueue_style('reposive', $location. 'css/reponsive.css');
 	}
