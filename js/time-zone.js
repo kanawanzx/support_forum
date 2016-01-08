@@ -28,7 +28,7 @@ jQuery(document).ready(function($) {
 	
 	utc = d.getTime() + (d.getTimezoneOffset() * 60000);
 		
-	var offset ='+5.5';
+	var offset ='+7';
 		
 	our = new Date(utc + (3600000*offset));
 		
