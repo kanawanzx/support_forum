@@ -6,9 +6,7 @@
         <div class="row">
             <div class="col-xs-12 col-md-8">
                 <div class="as-text-topbar-header">
-                    <?php echo esc_html__('Welcome to ', 'support-forum'); ?><a href="http://monalisa.alenastudio.com/"><?php echo esc_html__('Alena Studio ', 'support-forum'); ?></a><?php echo esc_html__('Support Forum :)', 'support-forum'); ?>  
-                    <div class="time-zone-wrapper"> 
-                        
+                    <div class="time-zone-wrapper">      
                         <span class="iva_visitor_time"><span class="iva-time">Your Time:</span><span class="time-zone-visitor-icon dslc-icon "></span> <span id="your_time">11:40:47</span></span>
                         
                         <span class="iva_support_time"><span class="iva-time">Our Time:</span><span class="time-zone-support-icon dslc-icon "></span> <span id="our_time">10:10:47</span></span>
