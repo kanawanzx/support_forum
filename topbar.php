@@ -7,9 +7,9 @@
             <div class="col-xs-12 col-md-8">
                 <div class="as-text-topbar-header">
                     <div class="time-zone-wrapper">      
-                        <span class="iva_visitor_time"><span class="iva-time">Your Time:</span><span class="time-zone-visitor-icon dslc-icon "></span> <span id="your_time">11:40:47</span></span>
-                        
-                        <span class="iva_support_time"><span class="iva-time">Our Time:</span><span class="time-zone-support-icon dslc-icon "></span> <span id="our_time">10:10:47</span></span>
+                        <span class="iva_visitor_time"><span class="iva-time"><strong>Your Time:&nbsp;</strong></span><span class="time-zone-visitor-icon dslc-icon "></span> <span id="your_time">11:40:47</span></span>
+                        &nbsp;-&nbsp;
+                        <span class="iva_support_time"><span class="iva-time"><strong>Our Time:&nbsp;</strong></span><span class="time-zone-support-icon dslc-icon "></span> <span id="our_time">10:10:47</span></span>
                     </div>
                 </div>
             </div>
