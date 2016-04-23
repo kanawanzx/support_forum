@@ -324,6 +324,7 @@ div.reply-author-displayname {
 -------------------------------------------------------------- */
 
 .topic span.bbp-admin-links {
+	display: block;
 	color: #ddd;
 }
 .topic span.bbp-admin-links a {
