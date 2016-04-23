@@ -55,8 +55,7 @@ a:hover {
 /*** Topbar ***/
 #topbar {
   background: #eeeeee;
-  padding: 10px 0;
-  max-height: 45px; }
+  padding: 10px 0; }
   #topbar .as-text-topbar-header {
     font-size: 14px; }
   #topbar .as-group-button-topbar {
@@ -266,6 +265,7 @@ a:hover, a.comment-edit-link:hover {
 
 .topic .bbp-reply-content a:hover, .topic .bbp-topic-content a:hover {
   color: #526559; }
+
 .topic .bbp-reply-content P {
   text-transform: none; }
 
@@ -309,14 +309,17 @@ a:hover, a.comment-edit-link:hover {
 
 .widget-area ul ul {
   margin-left: 0; }
+
 .widget-area a:hover {
   text-decoration: none; }
+
 .widget-area a:active {
   text-decoration: none; }
 
 #primary {
   width: 100%; }
-  #primary .widget-container li {
+  #primary .widget-container
+li {
     border-bottom: 1px solid #dedede;
     padding: 10px 0px;
     list-style: none;
@@ -341,8 +344,7 @@ a:hover, a.comment-edit-link:hover {
     padding: 20px 0px; }
   #bbpress-forums .bbp-body {
     line-height: 20px;
-    text-align: center;
-    text-transform: uppercase; }
+    text-align: center; }
     #bbpress-forums .bbp-body .topic .bbp-topic-title .overflow .bbp-topic-permalink {
       display: block;
       margin-bottom: 5px; }
@@ -382,8 +384,10 @@ a:hover, a.comment-edit-link:hover {
 #bbpress-forums .bbp-body .bbp-topic-freshness-author {
   font-weight: 700;
   font-size: 10px; }
+
 #bbpress-forums .bbp-body .bbp-topic-last-poster {
   word-wrap: break-word; }
+
 #bbpress-forums .bbp-body .bbp-topic-reply-count {
   width: 10%;
   word-wrap: break-word; }
@@ -395,12 +399,15 @@ a:hover, a.comment-edit-link:hover {
     width: 40px;
     line-height: 20px;
     border-radius: 20px; }
+
 #bbpress-forums .bbp-body .bbp-topic-freshness {
   font-size: 10px;
   position: relative; }
+
 #bbpress-forums .bbp-header, #bbpress-forums .bbp-body, #bbpress-forums .bbp-footer {
   padding: 0px 20px;
   background: #eee; }
+
 #bbpress-forums .bbp-header {
   margin-bottom: 20px;
   padding: 20px; }
@@ -428,6 +435,7 @@ a:hover, a.comment-edit-link:hover {
     line-height: 1.667;
     text-align: left;
     border: none; }
+
 #bbpress-forums div.bbp-topic-author img.avatar, #bbpress-forums div.bbp-reply-author img.avatar {
   border-radius: 100%; }
 
@@ -592,12 +600,14 @@ pagination
   background-color: #f7f7f9 !important;
   padding: 7px 12px;
   margin: 0; }
+
 .contact .contact-message {
   border: 1px solid #dddddd;
   border-radius: 2px;
   background-color: #f7f7f9;
   width: 640px;
   height: 184px; }
+
 .contact input[type=submit] {
   background: #212121;
   width: 96px;
