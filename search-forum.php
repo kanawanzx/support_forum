@@ -20,13 +20,6 @@ $args = array(
 	<div id="container">
 		<div id="content" role="main">
 
-			<div id="forums-search">
-				<form role="search" method="get" id="searchform" class="searchform" action="<?php echo site_url('/search') ?>">
-					<input type="text" value="<?php echo $search ?>" name="q" class="search" placeholder="Search the forums..">
-					<input type="submit" class="searchsubmit" value="Search">
-				</form>
-			</div>
-
 			<br/>
 			<hr/>
 
@@ -60,8 +53,6 @@ $args = array(
 
 		</div><!-- #content -->
 	</div><!-- #container -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
 
 
