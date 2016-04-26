@@ -22,7 +22,7 @@
                 <?php do_action('bbp_theme_before_reply_form'); ?>
 
                 <fieldset class="bbp-form">
-                    <legend><?php printf(__('Reply To: %s', 'bbpress'), bbp_get_topic_title()); ?></legend>
+<!--                    <legend><?php // printf(__('Reply To: %s', 'bbpress'), bbp_get_topic_title()); ?></legend>-->
 
                     <?php do_action('bbp_theme_before_reply_form_notices'); ?>
                     <?php $bbpres_notice = ''; ?>
