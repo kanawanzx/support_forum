@@ -25,23 +25,20 @@
                     <legend><?php printf(__('Reply To: %s', 'bbpress'), bbp_get_topic_title()); ?></legend>
 
                     <?php do_action('bbp_theme_before_reply_form_notices'); ?>
-
-                    <?php if (!bbp_is_topic_open() && !bbp_is_reply_edit()) : ?>
-
-                        <div class="bbp-template-notice">
-                            <p><?php _e('This topic is marked as closed to new replies, however your posting capabilities still allow you to do so.', 'bbpress'); ?></p>
-                        </div>
-
+                    <?php $bbpres_notice = ''; ?>
+                    <?php
+                    if (!bbp_is_topic_open() && !bbp_is_reply_edit()) :
+                        $bbpres_notice .= '<p> This topic is marked as closed to new replies, however your posting capabilities still allow you to do so. </p>';
+                    endif;
+                    ?>
+                    <?php
+                    if (current_user_can('unfiltered_html')) :
+                        $bbpres_notice .= '<p>Your account has the ability to post unrestricted HTML content.</p>';
+                        ?>
                     <?php endif; ?>
-
-                    <?php if (current_user_can('unfiltered_html')) : ?>
-
-                        <div class="bbp-template-notice">
-                            <p><?php _e('Your account has the ability to post unrestricted HTML content.', 'bbpress'); ?></p>
-                        </div>
-
-                    <?php endif; ?>
-
+                    <div class="bbp-template-notice">
+                        <p><?php echo trim($bbpres_notice); ?></p>
+                    </div>
                     <?php do_action('bbp_template_notices'); ?>
 
                     <div>
@@ -61,10 +58,10 @@
 
                             <?php
                             bbp_the_content(array(
-                                'context' => 'reply',
-                                'tinymce' => true,
-                                'wpautop '=>true,
-                                'dfw'     => true));
+                                'context'  => 'reply',
+                                'tinymce'  => true,
+                                'wpautop ' => true,
+                                'dfw'      => true));
                             ?>
 
                         <?php endif; ?>
